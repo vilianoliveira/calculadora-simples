@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(to left, transparent, lightblue, transparent);
+}
+a{
+    border: 1px solid black;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to top, lightblue, rgba(211, 211, 211, 0.226));
+}
+a:hover{
+    background-image: linear-gradient(to bottom, lightblue, rgba(211, 211, 211, 0.342));
+}
+
+input{
+    line-height: 10px;
+    margin: 10px 10px;
+}
+
+.botao{
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to top, lightblue, rgba(211, 211, 211, 0.226));
+}
+.botao:hover{
+    background-image: linear-gradient(to bottom, lightblue, rgba(211, 211, 211, 0.342));
+}
+
+p{
+    line-height: 20px;
+}

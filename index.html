@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+    <main>
+        <h2>Operação:</h2>
+        <input type="radio" name="contas" id="som">
+        <label for="som">Soma</label>
+
+        <input type="radio" name="contas" id="sub">
+        <label for="sub">Subtração</label>
+
+        <input type="radio" name="contas" id="mul">
+        <label for="mul">Multiplicação</label>
+
+        <input type="radio" name="contas" id="div">
+        <label for="div">Divisão</label>
+
+        <input type="radio" name="contas" id="pot">
+        <label for="pot">Potencia</label>
+
+        <br>
+
+        <label for="num1">1°Numero:</label>
+        <input type="number" name="num1" id="num1"><br>
+
+        <label for="num2">2°Numero:</label>
+        <input type="number" name="num2" id="num2"><br>
+
+        <input class="botao" type="button" value="Calcular" onclick="calcular()">
+
+        <div id="res">
+            <p>Preencha os campos acima para ver o resultado!</p>
+        </div>
+        <a href="index.html">Resetar</a>
+        
+    </main>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
